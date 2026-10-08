@@ -69,7 +69,7 @@ reader.load_data("https://example.com/article", blockAds=True)
 
 ## Metadata
 
-Documents carry `source` and `status`, plus whatever page metadata was found: `title`, `description`, `language`, `site_name`, `author`, `published_time`, `word_count`, `page_type`, `image`. A redirect adds `final_url`; a crawled page adds `depth`; a mapped URL adds `lastmod` when the sitemap declares one.
+Documents carry `source` and `status`, plus whatever page metadata was found: `title`, `description`, `language`, `site_name`, `author`, `published_time`, `modified_time`, `word_count`, `page_type`, `image`. A redirect adds `final_url`; a crawled page adds `depth`; a mapped URL adds `lastmod` when the sitemap declares one.
 
 ```python
 doc = HydrafetchReader().load_data("https://example.com/article")[0]
