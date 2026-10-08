@@ -1,6 +1,6 @@
 [project]
 name = "llama-index-readers-hydrafetch"
-version = "0.1.0"
+version = "0.2.0"
 description = "LlamaIndex reader for Hydrafetch. Load clean, LLM-ready web data into an index."
 readme = "README.md"
 license = "MIT"
